@@ -1,7 +1,7 @@
 package main
 
 import (
-	Routers "cart/Router"
+	Routers "template/Router"
 
 	"github.com/gofiber/fiber/v2"
 )
