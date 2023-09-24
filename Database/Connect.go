@@ -11,7 +11,7 @@ var db *sql.DB
 
 func init() {
 	var err error
-	db, err = sql.Open("mysql", "root@tcp(localhost:3306)/solarss")
+	db, err = sql.Open("mysql", "root@tcp(localhost:3306)/")
 	if err != nil {
 		panic(err.Error())
 	} else {
